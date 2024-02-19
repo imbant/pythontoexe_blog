@@ -1,3 +1,7 @@
-              - name: Hexo Action
-                uses: sma11black/hexo-action@v1.0.4
-            
+- name: Hexo Action
+  uses: sma11black/hexo-action@v1.0.4
+  with:
+    user_name: "" # 这里填写 Github 用户名，默认是 github-actions[bot]
+    user_email: "" # 这里填写 Github 邮箱，默认是 41898282+github-actions[bot]@users.noreply.github.com
+    deploy_key: "" # 这里填写 Github Pages 仓库的部署密钥，默认为空
+    commit_msg: "" # 可选，填写提交到 GitHub Pages 仓库的 Git 提交消息，默认为空
